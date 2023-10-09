@@ -1,0 +1,60 @@
+.tarjeta{
+    border: 2px solid #B1BEFC;
+    width: 500px;
+    /*padding: 15px;*/
+    margin: 20px;
+    border-radius: 6px;
+
+    /*09 OCT*/
+    box-shadow: #4c5a9d -5px 5px 5px;
+    /*Es para agregar una sobra a la tarjeta
+    el primero indica el color, el segundo es
+    para la sombra del lado derecho, el tercero
+    es la sombra de abajo y el último es para
+    el desenfoque de la sombra*/
+    /*Para que la sombra esté del lado izquierdo
+    o en la parte superior de la tarjeta, se debe
+    de colocar los pixeles en negativo*/
+}
+.tarjeta img{
+    width: 400px;
+    height: 230px;
+    padding: 15px;
+}
+.titulo-tarjeta{
+    text-align: center;
+    font-weight: 800;
+    padding: 15px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #B1BEFC;
+
+    /*09 OCT*/
+    background-color: #B1BEFC;
+    color: aliceblue;
+    font-size: 2000 px;
+}
+.tarjeta div {
+    padding: 15px;
+}
+/*.cuerpo-tarjeta, .pie-tarjeta{
+    padding: 15px;
+}
+.pie-tarjeta{
+    padding: 15px;
+}*/
+.descripcion{
+    text-align: justify;
+}
+.precio{
+    text-align: center;
+}
+
+/*09 OCT*/
+.tarjeta button
+{
+    padding: 10px;
+    background-color: #B1BEFC;
+    color: rgb(255, 255, 255);
+    font-size: 60 px;
+    border: 1px solid #9dadfd;
+}
